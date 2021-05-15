@@ -1,0 +1,82 @@
+ 
+{
+	"name": "Vue, Tailwind & Jekyll Starter Template",
+
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick a Node version: 10, 12, 14
+		"args": { 
+			"VARIANT": "14"
+		}
+	},
+
+	"initializeCommand": "./.devcontainer/init",
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		
+		"[vue]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+
+		 "[html]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+		 
+		 "[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+		 
+		 "[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		 },
+
+		"editor.formatOnSave": true,
+		
+		"editor.formatOnPaste": false,
+		
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+
+		"css.validate": false,
+
+		"tailwindCSS.includeLanguages": {
+			"vue": "html",
+			"vue-html": "html",
+		},
+
+		"auto-rename-tag.activationOnLanguage": ["*"]
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"formulahendry.auto-close-tag",
+		"eamodio.gitlens",
+		"zignd.html-css-class-completion",
+		"isudox.vscode-jetbrains-keybindings",
+		"christian-kohler.path-intellisense",
+		"octref.vetur",
+		"dariofuzinato.vue-peek",
+		"mikestead.dotenv",
+		"EditorConfig.EditorConfig",
+		"ms-azuretools.vscode-docker",
+		"redhat.vscode-yaml",
+		"esbenp.prettier-vscode",
+		"bradlc.vscode-tailwindcss",
+		"wk-j.save-and-run",
+		"moshfeu.diff-merge",
+		"msjsdiag.debugger-for-chrome",
+        "formulahendry.auto-rename-tag"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "yarn install",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "node"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-tailwind-jekyll-starter-template",
+  "version": "0.1.0",
+  "description": "Starter template for vue, tailwind & Jekyll.",
+  "main": "src/ts/index.ts",
+  "scripts": {
+    "production": "mix --production",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/picofuture/vue-tailwind-jekyll-starter-template"
+  },
+  "keywords": [],
+  "author": "Anfal",
+  "license": "MIT",
+  "bugs": {
+    "url": "N/A"
+  },
+  "homepage": "N/A",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "laravel-mix": "^6.0.13",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3"
+  }
+}
