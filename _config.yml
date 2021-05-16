@@ -4,6 +4,8 @@ description: TBD
 
 permalink: pretty
 
+source: ./jekyll_src/
+
 author:
   fullname: TBD
   github: TBD
@@ -11,7 +13,7 @@ author:
   email: TBD
   twitter: TBD
 
-gtag: UA-67493206-2
+gtag: TBD
 
 # Build settings
 highlighter: rouge
