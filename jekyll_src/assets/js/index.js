@@ -148,7 +148,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkvue_tailwind_jekyll_starter_template"] = self["webpackChunkvue_tailwind_jekyll_starter_template"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunktailwind_jekyll_starter_template"] = self["webpackChunktailwind_jekyll_starter_template"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
