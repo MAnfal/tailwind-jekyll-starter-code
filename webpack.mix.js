@@ -1,7 +1,7 @@
 const mix = require("laravel-mix");
 const path = require("path");
 
-mix.setPublicPath("./jekyll_src/assets");
+mix.setPublicPath("./assets");
 
 mix.webpackConfig({
     resolve: {
@@ -15,8 +15,8 @@ if (mix.inProduction()) {
     mix.disableNotifications();
 }
 
-mix.postCss("./src/css/index.css", "./jekyll_src/assets/css/index.css", [
+mix.postCss("./src/css/index.css", "./assets/css/index.css", [
     require("tailwindcss"),
 ]);
 
-mix.ts("./src/ts/index.ts", "./jekyll_src/assets/js/index.js");
+mix.ts("./src/ts/index.ts", "./assets/js/index.js");
