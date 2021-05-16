@@ -1,11 +1,11 @@
- 
+
 {
-	"name": "Vue, Tailwind & Jekyll Starter Template",
+	"name": "Tailwind & Jekyll Starter Template",
 
 	"build": {
 		"dockerfile": "Dockerfile",
 		// Update 'VARIANT' to pick a Node version: 10, 12, 14
-		"args": { 
+		"args": {
 			"VARIANT": "14"
 		}
 	},
@@ -13,9 +13,9 @@
 	"postAttachCommand": "./.devcontainer/init.sh",
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
-		
+
 		"[vue]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		 },
@@ -23,19 +23,19 @@
 		 "[html]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		 },
-		 
+
 		 "[javascript]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		 },
-		 
+
 		 "[typescript]": {
 			"editor.defaultFormatter": "esbenp.prettier-vscode"
 		 },
 
 		"editor.formatOnSave": true,
-		
+
 		"editor.formatOnPaste": false,
-		
+
 		"editor.quickSuggestions": {
 			"strings": true
 		},

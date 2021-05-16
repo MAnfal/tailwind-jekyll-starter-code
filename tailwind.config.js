@@ -1,7 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    purge: ["./_includes/**/*.html", "./_layouts/**/*.html", "./*.html"],
+    purge: ["./jekyll_src/**/*.html"],
     darkMode: "class",
     theme: {
         extend: {
@@ -11,6 +11,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [
-    ],
+    plugins: [],
 };

@@ -1,7 +1,7 @@
 {
-  "name": "vue-tailwind-jekyll-starter-template",
+  "name": "tailwind-jekyll-starter-template",
   "version": "0.1.0",
-  "description": "Starter template for vue, tailwind & Jekyll.",
+  "description": "Starter template for tailwind & Jekyll.",
   "main": "src/ts/index.ts",
   "scripts": {
     "prod": "mix --production",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/picofuture/vue-tailwind-jekyll-starter-template"
+    "url": "git@github.com/picofuture/tailwind-jekyll-starter-template"
   },
   "keywords": [],
   "author": "Anfal",
