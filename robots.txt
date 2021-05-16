@@ -6,4 +6,4 @@ sitemap:
 User-agent: *
 Disallow:
 
-Sitemap: {{ site.origurl }}/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml

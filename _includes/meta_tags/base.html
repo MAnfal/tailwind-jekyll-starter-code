@@ -19,10 +19,10 @@
 
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="{{ page.type }}" />
-<meta property="og:url" content="{{ site.origurl }}{{ page.url }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta
     property="og:image"
-    content="{% if page.relimage %}{{ site.origurl }}/{{ page.relimage }}{% else %}{{ page.image }}{% endif %}"
+    content="{% if page.relimage %}{{ site.url }}/{{ page.relimage }}{% else %}{{ page.image }}{% endif %}"
 />
 <meta
     property="og:description"
@@ -31,11 +31,11 @@
 
 <meta property="twitter:title" content="{{ page.title }}" />
 <meta property="twitter:card" content="{{ page.type }}" />
-<meta property="twitter:site" content="{{ site.origurl }}{{ page.url }}" />
+<meta property="twitter:site" content="{{ site.url }}{{ page.url }}" />
 <meta property="twitter:creator" content="@{{ site.author.twitter }}" />
 <meta
     property="twitter:image"
-    content="{% if page.relimage %}{{ site.origurl }}/{{ page.relimage }}{% else %}{{ page.image }}{% endif %}"
+    content="{% if page.relimage %}{{ site.url }}/{{ page.relimage }}{% else %}{{ page.image }}{% endif %}"
 />
 <meta
     property="twitter:description"
