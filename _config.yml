@@ -1,0 +1,39 @@
+# Site settings
+title: TBD
+description: TBD
+
+permalink: pretty
+
+author:
+  fullname: TBD
+  github: TBD
+  linkedin: TBD
+  email: TBD
+  twitter: TBD
+
+gtag: UA-67493206-2
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+
+exclude: [
+  'src',
+  'webpack.mix.js',
+  'tslint.json',
+  'tsconfig.json',
+  'package.json',
+  'Gemfile',
+  'Gemfile.lock',
+  'node_modules',
+  'tailwind.config.js',
+  'package-lock.json',
+  'mix-manifest.json',
+  '.eslintrc',
+  '.editorconfig',
+  '.vscode',
+  '.devcontainer',
+  'LICENSE',
+  'CNAME',
+  '.gitignore'
+]
