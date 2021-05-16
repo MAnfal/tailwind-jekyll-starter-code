@@ -35,5 +35,6 @@ exclude: [
   '.devcontainer',
   'LICENSE',
   'CNAME',
-  '.gitignore'
+  '.gitignore',
+  'definition-manifest.json'
 ]
