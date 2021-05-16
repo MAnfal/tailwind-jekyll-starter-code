@@ -2,7 +2,7 @@
 <link
     rel="icon"
     type="image/jpeg"
-    href="{{ '/assets/img/favicon-32x32.png' | prepend: site.url }}"
+    href="{{ '/assets/img/favicon-32x32.png' | prepend: site.origurl }}"
 />
 
 <!-- Font styles -->
@@ -14,7 +14,8 @@
 />
 
 <!-- Theme -->
-<link rel="stylesheet" href="{{ "/assets/css/index.css" | prepend: site.url }}">
+<link rel="stylesheet" href="{{ "/assets/css/index.css" | prepend: site.origurl
+}}">
 
 <!-- Syntax highlighter -->
 <link

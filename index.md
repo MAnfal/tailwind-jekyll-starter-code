@@ -18,7 +18,7 @@ keywords: TBD
         <ul class="list-posts">
             {% for post in category.items %}
                 <li class="post-teaser">
-                    <a href="{{ post.url | prepend: site.url }}">
+                    <a href="{{ post.url | prepend: site.origurl }}">
                         <span class="post-teaser__title">{{ post.title }}</span>
                         <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
                     </a>
