@@ -2,6 +2,8 @@
 
 Starter code to create a static site using Tailwind CSS and Jekyll. It is made to serve as a one click install development environment. Please follow the following instructions to setup your VSCode for development.
 
+Since VSCode provides nice functionality to create one click install environments, I mostly talk about it but in case you want to run this independently, you can. You'll just have to install `Ruby`, `Node` and the modules by yourself.
+
 # Setup Instruction
 
 Please install the following items in order to prepare the environment for development.
